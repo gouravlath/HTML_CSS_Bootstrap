@@ -1,0 +1,99 @@
+html {
+}
+body {
+  background-image: linear-gradient(#fc5e55, #fa4083);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1.125rem;
+}
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.card1 {
+  width: 30%;
+  background-image: url(../images/image-background-card1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;
+}
+.card2 {
+  width: 30%;
+  background-image: url(../images/image-background-card2.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;
+}
+.card3 {
+  width: 30%;
+  background-image: url(../images/image-background-card3.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;
+}
+.herobox1 {
+  flex: 2;
+}
+.herobox2 {
+  flex: 1;
+}
+.logo {
+}
+nav {
+}
+h1 {
+  font-size: 3.25rem;
+  padding-bottom: 1rem;
+}
+p {
+  line-height: 1.75rem;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+.cards p {
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+  margin-top: 10px;
+}
+i {
+  font-size: 60px;
+  padding-top: 20px;
+}
+.card1,
+.card2,
+.card3 {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+}
+.navigationbutton {
+  color: #fa4083;
+  background-color: white;
+  padding: 10px;
+  border-radius: 2px;
+}
+nav .navigationbutton {
+  margin-left: 10px;
+}
